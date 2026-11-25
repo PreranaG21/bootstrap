@@ -1,0 +1,33 @@
+.hero{
+    height: 445px;
+    background:linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255,.95) 25%,  rgba(255, 255, 255,.3) 52%,
+    transparent 75%),
+    url('https://t3.ftcdn.net/jpg/02/68/98/30/360_F_268983042_1K5CGBiKZWgkawPbpsW922ZSaL7hYmQQ.jpg') center/cover no-repeat;
+  
+}
+
+.hero-content{
+    max-width: 370px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.05;
+}
+
+.explore-btn {
+    background-color: #D63E20;
+    
+}
+
+.card-img-top{
+    height: 13rem;
+}
+
+.card .travel {
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}

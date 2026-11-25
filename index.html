@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelGO</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-white">
+    <!-- Start Navbar -->
+    <nav class="navbar sm:navbar-expand bg-1 fg-2 bg-white">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand fw-bold fs-3 fg-black" href="#">
+          Travel<span class="fg-danger">Go</span>
+        </a>
+        <button
+          class="btn-icon navbar-toggler"
+          type="button"
+          data-bs-toggle="drawer"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <dialog
+          class="drawer drawer-end"
+          tabindex="-1"
+          id="navbarNav"
+          aria-labelledby="navbarNavLabel"
+        >
+          <div class="drawer-header">
+            <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="drawer"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="drawer-body">
+            <ul class="navbar-nav flex-row mx-auto gap-4">
+              <li class="nav-item">
+                <a class="nav-link active fg-danger fw-bold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fg-secondary fw-semibold" href="#">Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fg-secondary fw-semibold" href="#">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fg-secondary fw-semibold" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fg-secondary fw-semibold" href="#">Contact</a>
+              </li>
+            </ul>
+            <!-- Button -->
+            <a href="#" class="btn explore-btn">Plan Your Trip</a>
+          </div>
+        </dialog>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Carousel -->
+    <section class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-7">
+            <div class="hero-content">
+              <p class="small text-uppercase fw-semibold fg-secondary">
+                EXPLORE . DISCOVER . TRAVEL
+              </p>
+
+              <h1 class="fg-black">Your Next Adventure Starts Here</h1>
+
+              <p class="fg-secondary">
+                Discover beautiful destinations,unique experiences and
+                unforgettable memories with TravelGo.
+              </p>
+
+              <a
+                href="#"
+                class="btn explore-btn fg-white border border-0 rounded-3"
+              >
+                Explore destinations
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Carousel -->
+
+    <!-- Start Card1 -->
+    <div class="container py-5">
+      <div class="text-center">
+        <p class="small fg-secondary text-uppercase mb-2">
+          popular destinations
+        </p>
+
+        <h2 class="fw-bold mb-2 fg-black">Explore Top Destinations</h2>
+
+        <p class="small fg-secondary">
+          Find your next favorite place from our most popular destinations.
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-3">
+          <div class="card border border-0" style="width: 18rem">
+            <img src="download.jfif" class="card-img-top" alt="image" />
+            <div class="card-body bg-white">
+              <h5 class="fw-bold fg-black">Bali</h5>
+              <p class="card-text fg-secondary">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card border border-0" style="width: 18rem">
+            <img src="download (1).jfif" class="card-img-top" alt="image" />
+            <div class="card-body bg-white">
+              <h5 class="fw-bold fg-black">Switzerland</h5>
+              <p class="card-text fg-secondary">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card border border-0" style="width: 18rem">
+            <img src="download (2).jfif" class="card-img-top" alt="image" />
+            <div class="card-body bg-white">
+              <h5 class="fw-bold fg-black">Greece</h5>
+              <p class="card-text fg-secondary">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card border border-0" style="width: 18rem">
+            <img src="download (3).jfif" class="card-img-top" alt="image" />
+            <div class="card-body bg-white">
+              <h5 class="fw-bold fg-black">London</h5>
+              <p class="card-text fg-secondary">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start Card1 -->
+
+    <!-- Start Card2 -->
+    <div class="container text-center">
+      <div class="text-center pb-5">
+        <p class="small fg-secondary text-uppercase mb-2">
+          why travel with us
+        </p>
+
+        <h2 class="fw-bold mb-2 fg-black">
+          Make Your Trip Easier
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="card border border-0 bg-white" style="width: 18rem">
+           <img src="travel.png" class="bg-white travel" alt="image" width="80px"/>
+            <div class="card-body bg-white">
+              <h5 class="fw-bold fg-black">Best Deals</h5>
+              <p class="card-text fg-secondary">
+                Get the best travel deals and offers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card border border-0 bg-white" style="width: 18rem">
+            <img src="travel.png" class="bg-white travel" alt="image" width="80px"/>
+            <div class="card-body bg-white">
+              <h5 class="fw-bold fg-black">Wide Destinations</h5>
+              <p class="card-text fg-secondary">
+                Choose from a variety of amazing places.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card border border-0 bg-white"  style="width: 18rem">
+            <img src="travel.png" class="bg-white travel" alt="image" width="80px"/>
+            <div class="card-body bg-white">
+              <h5 class="fw-bold fg-black">Trusted Support</h5>
+              <p class="card-text fg-secondary">
+                We are here to help you anytime
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Start Card2 -->
+
+    <!-- Start About -->
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-6">
+          <img src="About.jpg" alt="image" class="rounded" />
+        </div>
+        <div class="col-6">
+          <h6 class="text-uppercase fg-secondary">about</h6>
+          <h1 class="fg-black">Travel More</h1>
+          <p  class="fg-secondary">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <button type="button" class="explore-btn btn-solid btn-styled">
+            Learn More
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-right-short"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Start About -->
+
+    <!-- Start Footer -->
+    <footer class="border-top border border-secondary">
+      <div class="container">
+        <div class="d-flex flex-warp align-items-center justify-content-between gap-3">
+          <!-- Logo -->
+           <div>
+              <h4 class="fw-bold mb-1 fg-black">
+                Travel<span class="fg-danger">Go</span>
+              </h4>
+
+              <p class="fg-secondary">
+                Your journey, our inspiration
+              </p>
+           </div>
+           <!-- NavLink -->
+            <div  class="d-flex flex-warp align-items-center justify-content-center gap-4">
+              <a href="#" class="text-decoration-none fg-secondary">Home</a>
+              <a href="#" class="text-decoration-none fg-secondary">Destination</a>
+              <a href="#" class="text-decoration-none fg-secondary">Packages</a>
+              <a href="#" class="text-decoration-none fg-secondary">About</a>
+              <a href="#" class="text-decoration-none fg-secondary">Contact</a>
+            </div>
+
+            <!-- Social Media Icons -->
+             <div class="d-flex align-items-center gap-3">
+               <a href="#" class="fg-dark fs-5">
+                <i class="bi bi-instagram fg-black m-3 fw-bold"></i>
+               </a>
+
+               <a href="#" class="fg-dark fs-5">
+                <i class="bi bi-facebook fg-black m-3 fw-bold"></i>
+               </a>
+
+               <a href="#" class="fg-dark fs-5">
+                <i class="bi bi-twitter fg-black m-3 fw-bold"></i>
+               </a>
+             </div>
+        </div> 
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>
